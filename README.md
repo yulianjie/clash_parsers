@@ -1,5 +1,5 @@
 # clash_parsers
- `Clash for Windows`的parsers配置，为了更好的使用ChatGPT和NewBing。
+ `Clash for Windows`的parsers配置，自定义代理规则，更好的使用ChatGPT和NewBing。
 ## 设置方法
 在`Clash for Windows`的Settings-Profiles-Parsers中粘贴['parsers.txt'](/parsers.txt)中的内容，然后更新订阅即可。
 
