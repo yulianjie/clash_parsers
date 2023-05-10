@@ -8,3 +8,5 @@ payload:
   - 'platform.openai.com'
   - 'ai.com'
   - '+.ai.com'
+  - 'bing.com'
+  - '+.bing.com'
