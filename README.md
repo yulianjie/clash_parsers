@@ -5,6 +5,9 @@
 
 设置好的`Proxies`界面如下图所示
 ![clash](img/demo.png)
- 
- **参考**：
+ ## 致谢
+
+ - [Clash Premium 规则集](https://github.com/Loyalsoldier/clash-rules)
+
+- [Iridescent-me](https://github.com/Iridescent-me)分享的parser：
  https://github.com/Fndroid/clash_for_windows_pkg/issues/2193
