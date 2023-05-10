@@ -1,6 +1,6 @@
 payload:
   - 'openai.com'
-  - '+.open.com'
+  - '+.openai.com'
   - 'pay.openai.com'
   - 'chat.openai.com'
   - 'challenges.cloudflare.com'

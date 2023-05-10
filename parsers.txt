@@ -95,6 +95,7 @@ parsers: # array
         - DOMAIN,yacd.haishan.me,DIRECT
         - RULE-SET,private,DIRECT
         - RULE-SET,reject,🛑 广告拦截
+        - RULE-SET,openai,OpenAI
         - RULE-SET,icloud,DIRECT #
         - RULE-SET,apple,Apple # 这三个为国内可直连地址，如果希望走代理改为PROXY
         - RULE-SET,google,DIRECT # 
@@ -102,7 +103,6 @@ parsers: # array
         - RULE-SET,gfw,PROXY
         - RULE-SET,greatfire,PROXY
         - RULE-SET,telegramcidr,Telegram
-        - RULE-SET,openai,OpenAI
         - RULE-SET,lancidr,DIRECT
         - RULE-SET,cncidr,DIRECT
         - GEOIP,,DIRECT
