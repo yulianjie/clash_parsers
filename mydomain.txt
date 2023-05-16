@@ -1,0 +1,9 @@
+payload:
+  - 'kaggle.com'
+  - '+.kaggle.com'
+  - 'kaggle.io'
+  - '+.kaggle.io'
+  - 'kaggle.net'
+  - '+.kaggle.net'
+  - '+.googleapis.com'
+

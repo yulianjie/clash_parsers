@@ -96,6 +96,7 @@ parsers: # array
         - RULE-SET,private,DIRECT
         - RULE-SET,reject,🛑 广告拦截
         - RULE-SET,openai,OpenAI
+        - RULE-SET,mydomain,PROXY
         - RULE-SET,icloud,DIRECT #
         - RULE-SET,apple,Apple # 这三个为国内可直连地址，如果希望走代理改为PROXY
         - RULE-SET,google,DIRECT # 
@@ -210,9 +211,16 @@ parsers: # array
           path: ./ruleset/applications.yaml
           interval: 86400
         
-        openai: # 需要直连的常见软件列表
+        openai: # chatgpt相关域名
           type: http
           behavior: domain
           url: "https://raw.githubusercontent.com/yulianjie/clash_parsers/main/chatgpt.txt"
           path: ./ruleset/openai.yaml
+          interval: 86400
+        
+        mydomain: # 自定义域名
+          type: http
+          behavior: domain
+          url: "https://raw.githubusercontent.com/yulianjie/clash_parsers/main/mydomain.txt"
+          path: ./ruleset/mydomain.yaml
           interval: 86400
