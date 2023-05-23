@@ -10,3 +10,7 @@ payload:
   - '+.ai.com'
   - 'bing.com'
   - '+.bing.com'
+  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-KEYWORD,xbox  
+  - DOMAIN-KEYWORD,msn 
+  - DOMAIN-KEYWORD,microsoft
