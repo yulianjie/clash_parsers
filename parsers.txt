@@ -98,13 +98,13 @@ parsers: # array
         - RULE-SET,reject,🛑 广告拦截
         - RULE-SET,openai,🤖 OpenAI
         - RULE-SET,mydomain,PROXY
-        - RULE-SET,icloud,DIRECT #
-        - RULE-SET,apple,🍎 Apple# 这三个为国内可直连地址，如果希望走代理改为PROXY
-        - RULE-SET,google,DIRECT # 
+        - RULE-SET,icloud,🍎 Apple
+        - RULE-SET,apple,🍎 Apple
+        - RULE-SET,google,PROXY
         - RULE-SET,tld-not-cn,PROXY
         - RULE-SET,gfw,PROXY
         - RULE-SET,greatfire,PROXY
-        - RULE-SET,telegramcidr,✈️Telegram
+        - RULE-SET,telegramcidr,✈️ Telegram
         - RULE-SET,lancidr,DIRECT
         - RULE-SET,cncidr,DIRECT
         - GEOIP,,DIRECT
