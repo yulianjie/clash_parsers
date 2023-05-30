@@ -1,40 +1,40 @@
 payload:
-    DOMAIN-SUFFIX,nuaa.edu.cn
-    DOMAIN-SUFFIX,cnki.net
-    DOMAIN-SUFFIX,cnki.com.cn
-    DOMAIN-SUFFIX,cnki.com
-    DOMAIN-SUFFIX,cqvip.com
-    DOMAIN-SUFFIX,wanfangdata.com.cn
-    DOMAIN-SUFFIX,chaoxing.com
-    DOMAIN-SUFFIX,duxiu.com
-    DOMAIN-SUFFIX,blyun.com
-    DOMAIN-SUFFIX,sslibrary.com
-    DOMAIN-SUFFIX,sciencereading.cn
-    DOMAIN-SUFFIX,acs.org
-    DOMAIN-SUFFIX,aiaa.org
-    DOMAIN-SUFFIX,begellhouse.com
-    DOMAIN-SUFFIX,cambridge.org
-    DOMAIN-SUFFIX,compass.astm.org
-    DOMAIN-SUFFIX,clarivate.com
-    DOMAIN-SUFFIX,crossref.org
-    DOMAIN-SUFFIX,ebscohost.com
-    DOMAIN-SUFFIX,elsevier.com
-    DOMAIN-SUFFIX,els-cdn.com
-    DOMAIN-SUFFIX,evise.com
-    DOMAIN-SUFFIX,ieee.org
-    DOMAIN-SUFFIX,iop.com
-    DOMAIN-SUFFIX,jstor.org
-    DOMAIN-SUFFIX,mdpi.com
-    DOMAIN-SUFFIX,nature.com
-    DOMAIN-SUFFIX,osapublishing.org
-    DOMAIN-SUFFIX,pnas.org
-    DOMAIN-SUFFIX,rsc.org
-    DOMAIN-SUFFIX,rsc-cdn.org
-    DOMAIN-SUFFIX,sciencemag.org
-    DOMAIN-SUFFIX,sciencedirect.com
-    DOMAIN-SUFFIX,sciencedirectassets.com
-    DOMAIN-SUFFIX,springer.com
-    DOMAIN-SUFFIX,springernature.com
-    DOMAIN-SUFFIX,taylorfrancis.com
-    DOMAIN-SUFFIX,webofknowledge.com
-    DOMAIN-SUFFIX,wiley.com
+  - DOMAIN-SUFFIX,nuaa.edu.cn
+  - DOMAIN-SUFFIX,cnki.net
+  - DOMAIN-SUFFIX,cnki.com.cn
+  - DOMAIN-SUFFIX,cnki.com
+  - DOMAIN-SUFFIX,cqvip.com
+  - DOMAIN-SUFFIX,wanfangdata.com.cn
+  - DOMAIN-SUFFIX,chaoxing.com
+  - DOMAIN-SUFFIX,duxiu.com
+  - DOMAIN-SUFFIX,blyun.com
+  - DOMAIN-SUFFIX,sslibrary.com
+  - DOMAIN-SUFFIX,sciencereading.cn
+  - DOMAIN-SUFFIX,acs.org
+  - DOMAIN-SUFFIX,aiaa.org
+  - DOMAIN-SUFFIX,begellhouse.com
+  - DOMAIN-SUFFIX,cambridge.org
+  - DOMAIN-SUFFIX,compass.astm.org
+  - DOMAIN-SUFFIX,clarivate.com
+  - DOMAIN-SUFFIX,crossref.org
+  - DOMAIN-SUFFIX,ebscohost.com
+  - DOMAIN-SUFFIX,elsevier.com
+  - DOMAIN-SUFFIX,els-cdn.com
+  - DOMAIN-SUFFIX,evise.com
+  - DOMAIN-SUFFIX,ieee.org
+  - DOMAIN-SUFFIX,iop.com
+  - DOMAIN-SUFFIX,jstor.org
+  - DOMAIN-SUFFIX,mdpi.com
+  - DOMAIN-SUFFIX,nature.com
+  - DOMAIN-SUFFIX,osapublishing.org
+  - DOMAIN-SUFFIX,pnas.org
+  - DOMAIN-SUFFIX,rsc.org
+  - DOMAIN-SUFFIX,rsc-cdn.org
+  - DOMAIN-SUFFIX,sciencemag.org
+  - DOMAIN-SUFFIX,sciencedirect.com
+  - DOMAIN-SUFFIX,sciencedirectassets.com
+  - DOMAIN-SUFFIX,springer.com
+  - DOMAIN-SUFFIX,springernature.com
+  - DOMAIN-SUFFIX,taylorfrancis.com
+  - DOMAIN-SUFFIX,webofknowledge.com
+  - DOMAIN-SUFFIX,wiley.com

@@ -214,14 +214,14 @@ parsers: # array
         
         openai: # chatgpt相关域名
           type: http
-          behavior: "domain"
+          behavior: classical
           url: "https://raw.githubusercontent.com/yulianjie/clash_parsers/main/chatgpt.txt"
           path: ./ruleset/openai.yaml
           interval: 86400
         
         nuaa: # 南京航空航天大学及部分可以直连的学术域名
           type: http
-          behavior: "classical"
+          behavior: classical
           url: "https://raw.githubusercontent.com/yulianjie/clash_parsers/main/nuaa.txt"
           path: ./ruleset/nuaa.yaml
           interval: 86400
