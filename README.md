@@ -16,3 +16,5 @@ Please copy the content of `nuaa_parsers.yaml` to `Settings-Profiles-Parsers`
 
 - [Iridescent-me](https://github.com/Iridescent-me)分享的parser：
  https://github.com/Fndroid/clash_for_windows_pkg/issues/2193
+ - [Clash Feature: Rule Providers](https://dreamacro.github.io/clash/premium/rule-providers.html)
+- https://docs.cfw.lbyczf.com/contents/ui/profiles/rules.html
