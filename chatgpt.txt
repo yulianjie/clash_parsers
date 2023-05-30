@@ -1,17 +1,15 @@
 payload:
-  - 'openai.com'
-  - '+.openai.com'
-  - '+.bingapis.com'
-  - 'pay.openai.com'
-  - 'chat.openai.com'
-  - 'challenges.cloudflare.com'
-  - 'auth0.openai.com'
-  - 'platform.openai.com'
-  - 'ai.com'
-  - '+.ai.com'
-  - 'bing.com'
-  - '+.bing.com'
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,pay.openai.com
+  - DOMAIN-SUFFIX,chat.openai.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,auth0.openai.com
+  - DOMAIN-SUFFIX,platform.openai.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,xbox  
-  - DOMAIN-KEYWORD,msn 
+  - DOMAIN-KEYWORD,msn
   - DOMAIN-KEYWORD,microsoft

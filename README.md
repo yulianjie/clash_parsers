@@ -5,6 +5,11 @@
 
 设置好的`Proxies`界面如下图所示
 ![clash](img/demo.png)
+
+> for NUAAer
+
+Please copy the content of `nuaa_parsers.yaml` to `Settings-Profiles-Parsers`
+
  ## 致谢
 
  - [Clash Premium 规则集](https://github.com/Loyalsoldier/clash-rules)

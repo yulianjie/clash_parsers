@@ -6,4 +6,3 @@ payload:
   - 'kaggle.net'
   - '+.kaggle.net'
   - '+.googleapis.com'
-
