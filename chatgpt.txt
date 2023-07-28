@@ -15,6 +15,8 @@ payload:
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,usefathom.com
+  - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,poe.com
   
