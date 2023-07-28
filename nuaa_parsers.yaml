@@ -215,20 +215,20 @@ parsers: # array
         openai: # chatgpt相关域名
           type: http
           behavior: classical
-          url: "https://raw.githubusercontent.com/yulianjie/clash_parsers/main/chatgpt.txt"
+          url: "https://cdn.jsdelivr.net/gh/yulianjie/clash_parsers/chatgpt.txt"
           path: ./ruleset/openai.yaml
           interval: 86400
         
         nuaa: # 南京航空航天大学及部分可以直连的学术域名
           type: http
           behavior: classical
-          url: "https://raw.githubusercontent.com/yulianjie/clash_parsers/main/nuaa.txt"
+          url: "https://cdn.jsdelivr.net/gh/yulianjie/clash_parsers/nuaa.txt"
           path: ./ruleset/nuaa.yaml
           interval: 86400
         
         mydomain: # 自定义域名
           type: http
           behavior: "domain"
-          url: "https://raw.githubusercontent.com/yulianjie/clash_parsers/main/mydomain.txt"
+          url: "https://cdn.jsdelivr.net/gh/yulianjie/clash_parsers/mydomain.txt"
           path: ./ruleset/mydomain.yaml
           interval: 86400
