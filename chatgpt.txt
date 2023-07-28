@@ -1,5 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,bingapis.com
   - DOMAIN-SUFFIX,pay.openai.com
   - DOMAIN-SUFFIX,chat.openai.com
