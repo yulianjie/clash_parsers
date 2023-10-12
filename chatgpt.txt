@@ -20,4 +20,4 @@ payload:
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,google.com
   - DOMAIN-SUFFIX,poe.com
-  
+  - DOMAIN-SUFFIX,oaistatic.com 
