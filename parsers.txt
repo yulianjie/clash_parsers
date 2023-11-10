@@ -94,7 +94,6 @@ parsers: # array
         - DOMAIN,clash.razord.top,DIRECT
         - DOMAIN,yacd.haishan.me,DIRECT
         - RULE-SET,private,DIRECT
-        - RULE-SET,nuaa,DIRECT
         - RULE-SET,reject,🛑 广告拦截
         - RULE-SET,openai,🤖 OpenAI
         - RULE-SET,mydomain,PROXY
