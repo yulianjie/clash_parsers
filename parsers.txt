@@ -24,15 +24,15 @@ parsers: # array
         - name: 🤖 OpenAI 
           type: select
 
+        - name: 💻 Microsoft
+          type: select
+
         - name: ✈️ Telegram 
           type: select
         
         - name: 🍎 Apple
           type: select
-        
-        - name: 💻 Microsoft
-          type: select
-            
+
         - name: 🛑 广告拦截
           type: select
           proxies:
