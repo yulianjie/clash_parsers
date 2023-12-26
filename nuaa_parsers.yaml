@@ -77,14 +77,15 @@ parsers: # array
         - proxy-groups.🔰 选择节点.proxies=[]proxyNames # 向指定策略组添加订阅中的节点名，可使用正则过滤
         - proxy-groups.🔰 选择节点.proxies.0+DIRECT # 向指定分组第一个位置添加一个 DIRECT 节点名
         - proxy-groups.🤖 OpenAI.proxies=[]proxyNames # 向指定策略组添加订阅中的节点名，可使用正则过滤
-        - proxy-groups.🤖 OpenAI.proxies.0+PROXY # 向指定分组第2个位置添加一个 PROXY 节点名
         - proxy-groups.🤖 OpenAI.proxies.0+DIRECT # 向指定分组第一个位置添加一个 DIRECT 节点名
+        - proxy-groups.🤖 OpenAI.proxies.0+PROXY # 向指定分组第2个位置添加一个 PROXY 节点名
+        - proxy-groups.💻 Microsoft.proxies=[]proxyNames # 向指定策略组添加订阅中的节点名，可使用正则过滤
+        - proxy-groups.💻 Microsoft.proxies.0+DIRECT # 向指定分组第一个位置添加一个 DIRECT 节点名
+        - proxy-groups.💻 Microsoft.proxies.0+PROXY # 向指定分组第2个位置添加一个 PROXY 节点名
         - proxy-groups.✈️ Telegram.proxies=[]proxyNames # 向指定策略组添加订阅中的节点名，可使用正则过滤
         - proxy-groups.✈️ Telegram.proxies.0+PROXY # 向指定分组第一个位置添加一个 PROXY 节点名
         - proxy-groups.🍎 Apple.proxies=[]proxyNames # 向指定策略组添加订阅中的节点名，可使用正则过滤
         - proxy-groups.🍎 Apple.proxies.0+DIRECT # 向指定分组第一个位置添加一个 DIRECT 节点名
-        - proxy-groups.💻 Microsoft.proxies=[]proxyNames # 向指定策略组添加订阅中的节点名，可使用正则过滤
-        - proxy-groups.💻 Microsoft.proxies.0+DIRECT # 向指定分组第一个位置添加一个 DIRECT 节点名
         
         # 一些可能用到的正则过滤节点示例，使分组更细致
         # []proxyNames|a                         # 包含a
@@ -228,20 +229,20 @@ parsers: # array
         microsoft: # microsoft相关域名
           type: http
           behavior: "classical"
-          url: "https://cdn.jsdelivr.net/gh/yulianjie/clash_parsers/microsoft.txt"
+          url: "https://cdn.jsdelivr.net/gh/yulianjie/clash_parsers@master/microsoft.txt"
           path: ./ruleset/microsoft.yaml
           interval: 86400
         
         nuaa: # 南京航空航天大学及部分可以直连的学术域名
           type: http
           behavior: classical
-          url: "https://cdn.jsdelivr.net/gh/yulianjie/clash_parsers/nuaa.txt"
+          url: "https://cdn.jsdelivr.net/gh/yulianjie/clash_parsers@master/nuaa.txt"
           path: ./ruleset/nuaa.yaml
           interval: 86400
         
         mydomain: # 自定义域名
           type: http
           behavior: "domain"
-          url: "https://cdn.jsdelivr.net/gh/yulianjie/clash_parsers/mydomain.txt"
+          url: "https://cdn.jsdelivr.net/gh/yulianjie/clash_parsers@master/mydomain.txt"
           path: ./ruleset/mydomain.yaml
           interval: 86400
