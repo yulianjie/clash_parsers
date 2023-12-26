@@ -29,6 +29,9 @@ parsers: # array
         
         - name: 🍎 Apple
           type: select
+        
+        - name: 💻 Microsoft
+          type: select
             
         - name: 🛑 广告拦截
           type: select
@@ -80,6 +83,8 @@ parsers: # array
         - proxy-groups.✈️ Telegram.proxies.0+PROXY # 向指定分组第一个位置添加一个 PROXY 节点名
         - proxy-groups.🍎 Apple.proxies=[]proxyNames # 向指定策略组添加订阅中的节点名，可使用正则过滤
         - proxy-groups.🍎 Apple.proxies.0+DIRECT # 向指定分组第一个位置添加一个 DIRECT 节点名
+        - proxy-groups.💻 Microsoft.proxies=[]proxyNames # 向指定策略组添加订阅中的节点名，可使用正则过滤
+        - proxy-groups.💻 Microsoft.proxies.0+DIRECT # 向指定分组第一个位置添加一个 DIRECT 节点名
         
         # 一些可能用到的正则过滤节点示例，使分组更细致
         # []proxyNames|a                         # 包含a
@@ -99,6 +104,7 @@ parsers: # array
         - RULE-SET,mydomain,PROXY
         - RULE-SET,icloud,🍎 Apple
         - RULE-SET,apple,🍎 Apple
+        - RULE-SET,microsoft,💻 Microsoft
         - RULE-SET,google,PROXY
         - RULE-SET,tld-not-cn,PROXY
         - RULE-SET,gfw,PROXY
@@ -211,6 +217,13 @@ parsers: # array
           path: ./ruleset/applications.yaml
           interval: 86400
         
+        microsoft: # microsoft相关域名
+          type: http
+          behavior: "classical"
+          url: "https://cdn.jsdelivr.net/gh/yulianjie/clash_parsers/microsoft.txt"
+          path: ./ruleset/microsoft.yaml
+          interval: 7200
+
         openai: # chatgpt相关域名
           type: http
           behavior: "classical"

@@ -18,3 +18,4 @@ Please copy the content of `nuaa_parsers.yaml` to `Settings-Profiles-Parsers`
  https://github.com/Fndroid/clash_for_windows_pkg/issues/2193
  - [Clash Feature: Rule Providers](https://dreamacro.github.io/clash/premium/rule-providers.html)
 - https://docs.cfw.lbyczf.com/contents/ui/profiles/rules.html
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
