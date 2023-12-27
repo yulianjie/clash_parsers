@@ -22,5 +22,6 @@ payload:
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
   - IP-CIDR,24.199.123.28/32
   - IP-CIDR,64.23.132.171/32
